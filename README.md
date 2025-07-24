@@ -21,7 +21,7 @@ A powerful automation tool that automatically joins online meetings on **Google 
 ### 💻 Frontend:
 - [React.js](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/) (Optional)
+- [Vite](https://vitejs.dev/) 
 
 ### 🌐 Backend:
 - [Node.js](https://nodejs.org/)
