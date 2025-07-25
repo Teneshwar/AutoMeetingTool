@@ -45,21 +45,35 @@ A powerful automation tool that automatically joins online meetings on **Google 
 AutoMeetingTool/
 │
 ├── client/ # Frontend (React + Tailwind + Vite)
+
 │ ├── src/ # All React components and pages
+
 │ ├── public/
+
 │ ├── index.html
+
 │ └── vite.config.js
 │
 ├── server/ # Backend (Express + MongoDB + Puppeteer)
+
 │ ├── config/ # MongoDB & other configs
+
 │ ├── controllers/ # Route controllers
+
 │ ├── routes/ # Express routes
+
 │ ├── models/ # Mongoose models
+
 │ ├── services/ # Puppeteer + transcription logic
+
 │ ├── meeting-automator/ # Automation logic (auto-join)
+
 │ ├── transcriptions/ # Stores generated .txt files
+
 │ ├── debug_screenshots/ # Screenshots from Puppeteer for debugging
+
 │ ├── server.js # Main backend entry point
+
 │ └── .env # Environment variables
 
 ## ⚙️ Installation & Setup
@@ -67,6 +81,7 @@ AutoMeetingTool/
 ### 1. Clone the Repository
 
 git clone https://github.com/Teneshwar/AutoMeetingTool.git
+
 cd AutoMeetingTool
 
 
