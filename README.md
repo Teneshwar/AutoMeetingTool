@@ -44,6 +44,7 @@ A powerful automation tool that automatically joins online meetings on **Google 
 
 AutoMeetingTool/
 │
+
 ├── client/ # Frontend (React + Tailwind + Vite)
 
 │ ├── src/ # All React components and pages
@@ -54,6 +55,7 @@ AutoMeetingTool/
 
 │ └── vite.config.js
 │
+
 ├── server/ # Backend (Express + MongoDB + Puppeteer)
 
 │ ├── config/ # MongoDB & other configs
