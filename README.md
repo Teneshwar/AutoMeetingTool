@@ -72,16 +72,24 @@ cd AutoMeetingTool
 
 ### 2. Set Up Backend
 cd server
+
 npm install
+
 Create a .env file in /server:
+
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_jwt_secret
+
 GOOGLE_API_KEY=your_google_speech_to_text_api_key
 
 Start the backend:
+
 node server.js
 
 ### 3. Set Up Frontend
 cd ../client
+
 npm install
+
 npm run dev
